@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F8F9F5">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>同频 · 和有趣的灵魂聊聊天</title>
+  <link rel="stylesheet" href="app.css">
+  <script defer src="core.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="desktop-brand">
+      <div class="brand-lockup"><span class="brand-symbol">ııı</span><strong>同频<span>TONGPIN</span></strong></div>
+      <div class="brand-story"><span class="eyebrow">A LITTLE SPACE TO CONNECT</span><h1>每一种性格，<br>都有回响。</h1><p>一些有趣的灵魂，<br>一个属于你的聊天小宇宙。</p><div class="orbit-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="orbit-center">✳</span><span class="orbit-friend friend-one">🍊</span><span class="orbit-friend friend-two">🌱</span><span class="orbit-friend friend-three">🪐</span><span class="orbit-dot"></span></div></div>
+      <p class="brand-foot">POWERED BY DEEPSEEK <span>✳</span> MADE FOR YOU</p>
+    </aside>
+    <main class="phone" aria-label="同频群聊应用">
+      <header id="header" class="header"></header>
+      <section id="screen" class="screen"></section>
+      <nav id="navigation" class="navigation" aria-label="主要导航"></nav>
+    </main>
+    <aside class="desktop-note"><span class="small-star">✳</span><p>不必想好开场白。<br>从一句「在吗」开始就好。</p><span class="tiny-line"></span><small>你的群聊，你来定义。</small></aside>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <input id="photo-input" type="file" accept="image/*" hidden>
+  <input id="import-input" type="file" accept="application/json,.json" hidden>
+</body>
+</html>
